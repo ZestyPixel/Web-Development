@@ -1,0 +1,16 @@
+span{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+    margin: 100px;
+}
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+    margin: 100px;
+}
+/*The browser is ignoring the height and width commands in span, but is giving margin and padding only but in left and right and not top bottom*/

@@ -1,0 +1,6 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-shadow: 10px 30px 4px green; /*x-offset y-offset blur color*/
+}

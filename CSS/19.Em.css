@@ -1,0 +1,22 @@
+#outer {
+  height: 400px;
+  width: 400px;
+  background-color: pink;
+  font-size: 20px;
+}
+
+#inner {
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  font-size: 2em; /*This is in relation to the outer div,so 40px*/
+  padding: 1em; /*This is in relation to fontsize of this div only and thus 40px*/
+}
+
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: green solid 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}

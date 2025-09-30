@@ -1,0 +1,48 @@
+#container {
+  height: 300px;
+  width: 80%;
+  color: white;
+  background-color: azure;
+  border: 2px solid black;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row-reverse; /*Default is row*/
+  justify-content: center; /*start end center space-between space-around space-evenly*/
+  justify-content: space-evenly;
+}
+
+#container div{ 
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
+  color: black;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+h1{
+    text-align: center;
+}

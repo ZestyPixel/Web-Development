@@ -1,0 +1,12 @@
+div{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    margin: 50px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+/*if we try to make div inline using display then css will not be able to apply most of the styling thus we must use display: inline-block;
+Also use display:none; to disappear an element*/

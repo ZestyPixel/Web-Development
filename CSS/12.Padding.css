@@ -1,0 +1,40 @@
+div{
+    height: 200px;
+    width: 500px;
+    padding: 50px 0 60px 0;
+    background-color: pink;
+    border: 2px black solid;
+}
+
+button{
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* === PADDING SHORTHAND REFERENCE ===
+
+1. One value:
+   padding: 10px;
+   → Applies 10px to all four sides (top, right, bottom, left)
+
+2. Two values:
+   padding: 10px 20px;
+   → Top & Bottom: 10px
+   → Left & Right: 20px
+
+3. Three values:
+   padding: 10px 15px 20px;
+   → Top: 10px
+   → Left & Right: 15px
+   → Bottom: 20px
+
+4. Four values:
+   padding: 5px 10px 15px 20px;
+   → Top: 5px
+   → Right: 10px
+   → Bottom: 15px
+   → Left: 20px
+
+Order: Top → Right → Bottom → Left (clockwise)
+============================================= */

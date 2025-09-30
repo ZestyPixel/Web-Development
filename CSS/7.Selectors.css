@@ -1,0 +1,97 @@
+/*id>class>element*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h3{
+    color: #b92b27;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    color: white;
+    background-color: #b92b27;
+}
+
+.upvote{/*Class selector*/
+    color: white;
+    background-color: green;
+}
+
+#myId p{
+    color: green;
+}
+
+.post a{  /*Descendant Selector*/
+    color: purple;
+    background-color: yellow;
+}
+
+nav a{
+    color: hotpink;
+}
+
+p + h3{ /*Sibling Combinator*/
+    text-decoration: underline;
+}
+
+.upvote + button{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div > input{ /*Child combinator*/
+    background-color: darksalmon;
+}
+
+input[type = "text"]{ /*Attribute selector. You can also use it for just attribute without value*/
+    color: red;
+}
+
+input[type = "password"]{
+    color: green;
+}
+
+button:hover{ /*Psuedo Class*/
+    color: white;
+    background-color: black;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type = "radio"]:checked + label{ /*Sibling combinator here*/
+    color: red;
+    font-weight: bold;
+}
+
+.post:nth-of-type(2n-1){
+    background-color: blanchedalmond;
+}
+
+h1::first-letter{ /*Psuedo elements*/
+    color: green;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{ 
+    background-color: black;
+}

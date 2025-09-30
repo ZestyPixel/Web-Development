@@ -1,0 +1,16 @@
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px; /*tracks is the distance between two rows. so to make 4 rows you have to define 3 tracks*/
+    grid-template-columns: auto auto auto auto auto;
+}
+
+div div{
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

@@ -1,0 +1,3 @@
+div{
+    font-size: 2rem; /*using em would have casue snowballing so we use rem or root em*/
+}

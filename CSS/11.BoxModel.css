@@ -1,0 +1,20 @@
+h1{
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    border: 10px solid black;
+    border-left-color: aqua;
+    border-radius: 10%;
+
+}
+
+div{
+    height: 100px;
+    width: 1000px;
+    background-color: pink;
+    border: 10px double black; /*border shorthand: width style colour*/
+    border-bottom-style: dashed;
+    border-top: 8px dotted red;
+    border-top-right-radius: 30px;
+}
+

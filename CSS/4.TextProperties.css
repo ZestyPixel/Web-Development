@@ -1,0 +1,32 @@
+
+h1{
+    font-weight: 800;
+    text-decoration: aqua double underline ;
+}
+
+h2{
+    text-decoration: wavy line-through;
+}
+
+h3{
+    text-decoration: dotted overline;
+}
+
+p1{
+    text-align: justify; /*start and end for languages where writing is from right to left. Justify aligns right and left boundaries.*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p2{
+    font-weight: bold;
+}
+
+p3{
+    line-height: 2;
+    letter-spacing: 2.5px;
+}
+
+a{
+    text-decoration: none; /*To remove underline of anchor tag*/
+}
+/*Bolder and lighter are used to make a child bolder or lighter than the parent*/

@@ -1,0 +1,50 @@
+#container {
+  height: 300px;
+  width: 80%;
+  color: white;
+  background-color: azure;
+  border: 2px solid black;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end; /*Baseline, flex, space, evenly, center. baseline to bring the content on the same line */
+}
+
+#container div{ 
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#red {
+  background-color: red;
+  align-self: flex-start; /*To align an individual. It has higher priority than align items*/
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
+  color: black; 
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+h1{
+    text-align: center;
+}

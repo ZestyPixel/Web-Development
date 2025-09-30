@@ -1,0 +1,16 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #1b74e4 !important; /*Important means that this property can never be changed*/ 
+}
+
+.userbtn{
+    background-color: aqua;
+}
+
+#searchbtn{
+    color: white;
+    background-color: black;
+}

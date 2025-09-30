@@ -1,0 +1,14 @@
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(5,1fr); /*repeat(count,fraction)*/
+    grid-template-columns: repeat(2,1fr);
+}
+
+div div{
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

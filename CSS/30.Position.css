@@ -1,0 +1,43 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#sticky{
+    background-color: brown;
+    position: sticky;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    bottom: 100px;
+}
+
+#relative{
+    background-color: blue; /*Takes its position as refrence*/
+    position: relative ;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: violet;
+    position: absolute; /*Because the parent has been give no position, it takes the entire document as point of refrence.
+    There is no space left for the middle element because absolute does not leave create space for an absolute element*/
+    top: 100px;
+    left: 100px;
+}
+
+#fixed{
+    background-color: red;
+    position: fixed; /*stays fixed even when scrolling*/
+    top: 400px;
+    left: 400px;
+}

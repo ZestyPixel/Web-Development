@@ -1,0 +1,12 @@
+/*Input boxes and buttons do not inherit properties auto*/
+div{
+    background-color: yellow;
+}
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}

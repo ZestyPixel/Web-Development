@@ -1,0 +1,44 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one:hover{
+    transition: 0.5s;
+    transform: rotate(45deg);
+}
+
+#two:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+#three:hover{
+    transition: 0.5s;
+    transform: scale(0.5,2); /*can also use scaleX()*/
+}
+
+#four:hover{
+    transition: 0.5s;
+    transform: translate(100px,100px);
+}
+
+#five:hover{
+    transition: 0.5s;
+    transform: skew(30deg);
+}

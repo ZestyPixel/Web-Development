@@ -1,0 +1,15 @@
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px; /*shorthand: row column*/
+}
+
+div div{
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

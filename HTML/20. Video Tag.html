@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tag</title>
+</head>
+<body>
+    <video src = "Video.mp4" width = "500" height = "280" controls loop poster = "Thumbnail.jpg"></video>
+    <audio src = "Audio.mp3" controls></audio>
+    <p>Some more attributes of video tag : <ul>
+        <li>Autoplay</li>
+        <li>Muted (Autoplay does not work without muted tag)</li>
+        <li>Preload attribute(for audio) has three values :<ul>
+            <li>None- The browser will not preload anything. The audio will download when the user initiates playback.</li>
+            <li>metadata - the browser will preload metadata(duration,basic info). This is useful if you want to show the audio duration without
+                loading the audio data.
+            </li>
+            <li>auto - The browser will preload the entire audio as much as possible without delaying the loading of other important page content.
+                Its so that the audio is ready to play when the user wants.
+            </li>
+        </ul></li>
+    </ul></p>
+</body>
+</html>

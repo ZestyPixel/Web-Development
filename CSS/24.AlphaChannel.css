@@ -1,0 +1,12 @@
+/*Alpha sets the opacity of the color, while opacity sets for the entire element*/
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(254, 0, 0, 0.742); /*Alpha sets the opacity of the color.*/
+}
+
+#opacity{
+    background-color: yellow; /*Opacity sets for the entire element.*/
+    opacity: 0.5;
+}

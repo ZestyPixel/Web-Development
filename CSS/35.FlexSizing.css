@@ -1,0 +1,54 @@
+#container {
+  height: 300px;
+  width: 80%;
+  color: white;
+  background-color: azure;
+  border: 2px solid black;
+  margin: 10px auto;
+  display: flex;
+  flex-direction:row; 
+  flex-wrap:wrap;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+
+#container div{ 
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#red {
+  background-color: red;
+  flex-basis: 300px; /*Upper limit if there is extra space*/
+  flex-grow: 2; /*Taking up free space in relative terms*/
+  /* max-width: 200px; */
+}
+
+#blue {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+#green {
+  background-color: green;
+  flex-grow: 3;
+}
+
+#yellow {
+  background-color: yellow;
+  color: black; 
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+h1{
+    text-align: center;
+}
