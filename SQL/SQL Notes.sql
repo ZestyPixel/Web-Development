@@ -124,6 +124,28 @@ DELETE FROM student
 WHERE age = 17;
 
 -- Alter(to change the schema)
+ALTER TABLE student
+ADD COLUMN grade INT DEFAULT "A";
+
+ALTER TABLE student
+DROP COLUMN grade ;
+
+ALTER TABLE student
+RENAME TO students;
+
+-- To Rename
+ALTER TABLE student
+CHANGE COLUMN rollno RollNo INT; 
+
+-- To change datatype/constraints
+ALTER TABLE student
+MODIFY name varchar(30) DEFAULT NULL;
+
+-- Truncate empties all of the data from the table, but does not delete the table itself
+TRUNCATE TABLE student;
+
+
+
 
 
 
