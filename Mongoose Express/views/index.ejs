@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <form method = "GET" action="/chats/new">
+        <button>New Chat</button>
+    </form>
+    <br>
+    <h3>All Chats!</h3>
+    <% for(let chat of chats) { %>
+        <div class="chat">
+            <p>From : <i><%= chat.from %></i></p>
+            <div class="msg">
+                <p><%= chat.msg %> </p>
+                <form method="GET" action="/chats/<%= chat._id %>/edit">
+                    <button>Edit</button>
+                </form>
+                <br>
+                <form method="POST" action="/chats/<%= chat._id %>?_method=DELETE">
+                    <button>Delete</button>
+                </form>
+
+            </div>
+            <p>Received by <i><%= chat.to %></i></p>
+            <hr>
+            <p><%= chat.created_at.toString().split(" ")[4]%></p> <!--split() gives an array of elements seperated by what is given as the seperator. Time is our 4th index in that array-->
+            <p><%= chat.created_at.toString().split(" ").slice(0, 4).join("-") %></p><!--To print the date we split and slice the data part from the array. Then we join the parts with a space in between.-->
+        </div>
+        <br>
+        <br>
+    <% } %>
+</body>
+</html>
