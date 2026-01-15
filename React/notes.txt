@@ -1,0 +1,36 @@
+React is writetn in jsx(JavaScript Extension Syntax) which is a syntax extension for JavaScript. 
+It allows you to write HTML-like code within JavaScript, making it easier to create and visualize the structure of your UI components.
+JSX is not valid JavaScript, so it needs to be transpiled into regular JavaScript using tools like Babel before it can be executed 
+by the browser.
+
+Now, vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+It leverages native ES modules in the browser to provide a fast development server and uses Rollup for production builds.
+Vite is designed to work seamlessly with frameworks like React, Vue, and others, providing features like hot module replacement (HMR),
+fast refresh, and optimized builds out of the box.
+
+Understanding the file structure of a Vite + React project:
+1. The src folder contains the main source code for your application, including components, styles, and other assets.
+2. The public folder contains static assets that are served directly without processing, such as images and fonts.
+3. The index.html file is the main HTML file that serves as the entry point for your application.
+4. The vite.config.js file is the configuration file for Vite, where you can customize various settings for your project.
+5. The src file contains:
+    1. main.jsx: The entry point for the React application, where the root component is rendered to the DOM.
+    2. App.jsx: The main application component that serves as the root of your component tree.
+    3. components/: A folder that typically contains reusable React components used throughout the application.
+    4. assets/: A folder for storing images, styles, and other static assets used in the application.
+    5. App.css: A CSS file for styling the App component and other global styles.
+
+The basic flow is that app.jsx is the main component that gets rendered in main.jsx and index.html is where 
+the root div is present where the react app gets mounted. 
+
+In summary, named exports are uselful when you want to export multiple values and import them with their sepcific names,
+while default exports are useful when you want to export a single value and giving it a specific custom name when importing.
+The choice between the two depends on the structure and requirements of your module.
+
+Webpack is a module bundler for JavaScript applications. It takes modules with dependencies and generates static assets representing those modules.
+Webpack allows you to bundle your JavaScript files along with other assets like CSS, images, and fonts into a single or multiple output files.
+It provides features like code splitting, tree shaking, and hot module replacement to optimize the development and production workflow.
+
+React props (short for properties) are a way to pass data from a parent component to a child component in React. 
+Props are read-only and cannot be modified by the child component.
+They allow you to customize the behavior and appearance of components by providing them with different values.
