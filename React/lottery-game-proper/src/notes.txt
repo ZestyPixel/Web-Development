@@ -1,0 +1,18 @@
+States can only be passsed down from parent to child components. 
+
+Design principles in react:
+1. State desing pattern(Lifting state up): Lift the state up to the closest common ancestor of all components that need it.
+2. Single source of truth: Maintain a single source of truth for shared state to ensure consistency across components.
+3. Unidirectional data flow: Data flows in one direction, from parent to child components, making it easier to understand and debug.
+4. Composition over inheritance: Use component composition to share behavior and state instead of relying on inheritance.
+
+Types of components:
+1. Functional components: These are simple JavaScript functions that accept props as an argument and return React elements. 
+    They are stateless and do not have lifecycle methods.
+2. Class components: These are ES6 classes that extend the React.Component class. They can have state and lifecycle methods. 
+3. Logical components: These components are responsible for handling the logic and state management of the application. 
+    They do not render any UI elements themselves but instead pass data and functions down to presentational components as props.
+4. Presentational components: These components are primarily concerned with how things look. 
+    They receive data and callbacks via props and render UI elements accordingly. They do not manage state or handle logic.
+
+In js functions are first class objects. They can be passed as arguments to other functions, returned from other functions, and assigned to variables.
