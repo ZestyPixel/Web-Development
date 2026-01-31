@@ -1,0 +1,13 @@
+React controls form elements by setting their value via state and updating that state via event handlers. 
+This allows React to have full control over the form data, making it easier to manage and validate user input.
+
+useAffect() is a hook that lets you perform side effects in function components.
+It takes two arguments: a function that contains the side effect code, and an optional array of dependencies that determine when the effect should re-run.
+
+When using useAffect() with forms, you can perform actions such as fetching data when the component mounts, updating the document title based on form input, 
+or validating form data whenever it changes.
+
+If you put an empty array as the second argument to useAffect(), the effect will only run once when the component mounts.
+
+IIFE stands for Immediately Invoked Function Expression.
+It is a JavaScript function that runs as soon as it is defined.
